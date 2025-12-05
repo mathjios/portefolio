@@ -182,6 +182,24 @@ contact
     margin-left: 600px;
 }
 
+
+/* 
+veille technologique
+*/
+
+
+.boo{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+
+
+
+
+
+
+
 /* for all social containers*/
 .socialContainer {
     width: 40px;
