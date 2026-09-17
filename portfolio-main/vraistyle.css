@@ -188,6 +188,37 @@ veille technologique
 */
 
 
+/* 
+compétences
+*/
+.competences-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.competences-grid img {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.competences-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(38, 160, 218, 0.6);
+}
+
+
 .boo{
     display: flex;
     justify-content: center;
